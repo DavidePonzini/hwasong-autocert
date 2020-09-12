@@ -1,8 +1,6 @@
 import pdf_processing
 from datetime import date
 
-today = date.today()
-
 
 INPUT_PATH = 'D:/Downloads/Autocertificazione COVID19.pdf'
 OUTPUT_PATH = 'D:/Desktop/'
