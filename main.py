@@ -2,7 +2,7 @@ import pdf_processing
 from datetime import date
 
 
-INPUT_PATH = 'D:/Downloads/Autocertificazione COVID19.pdf'
+INPUT_PATH = './Autocertificazione COVID19.pdf'
 OUTPUT_PATH = 'D:/Desktop/'
 
 
@@ -81,5 +81,5 @@ def _fill_cert(data, nome, giorno, mese, anno):
 
 
 if __name__ == '__main__':
-    fill_cert_maggiorenne('Davide Ponzini', 'citta`', 'prov', 12, 9, 2020, 'citta`', 'prov', 'indirizzo',
-                          'telefono', 'mail@mail.com')
+    fill_cert_maggiorenne('Davide Ponzini', 'Sanremo', 'IM', 18, 4, 1995, 'Sanremo', 'IM', 'Str. Caravelli 60',
+                          '338 717 4566', 'davide.ponzini95@gmail.com')
